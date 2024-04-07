@@ -1,0 +1,22 @@
+#text {
+    font-size: 12px;
+    font-weight: 500;
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+div#wow.class1.class2 {
+    width: 100px;
+    height: 100px;
+    background-color: #0d9488;
+    border: 20px solid black;
+    box-sizing: border-box;
+    /* 
+    box-sizing 기본값은 content-box임.
+    https://t.ly/O_M3d
+
+    content-box: width와 height이 요소 내부의 콘텐츠 크기
+    border-box: width와 height이 안쪽 여백과 테두리까지 포함
+    https://developer.mozilla.org/ko/docs/Web/CSS/box-sizing
+    */
+}
